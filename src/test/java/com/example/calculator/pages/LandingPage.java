@@ -17,7 +17,7 @@ public class LandingPage {
         this.elementActionUtils = new ElementActionUtils(driver);
     }
 
-    private final By HEADER_TITLE_LBL = By.xpath("//h1[normalize-space()='Simple Calculator App']");
+    private final By HEADER_TITLE_LBL = By.xpath("//h1[normalize-space()='Simple Calculator']");
     private final By NUM_ONE_TXT = By.xpath("//input[@id='a']");
     private final By NUM_TWO_TXT = By.xpath("//input[@id='b']");
     private final By OPERATION_TXT = By.xpath("//select[@id='op']");
